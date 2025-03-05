@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h2>Form Title</h2>
+    <form>
+        <div>
+            <p><label>Name</label></p>
+            <input type="text" name="name" placeholder="Name">
+        </div>
+        <div>
+            <p><label>Email</label></p>
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div>
+            <p><label>Phone</label></p>
+            <input type="tel" name="phone" placeholder="Phone">
+        </div>
+        <div>
+            <p><label>Message</label></p>
+            <textarea name="Message" rows="5" placeholder="Write your message here"></textarea>
+        </div>
+
+        <div>
+            <p> Are you a new customer?</p>
+            <input type="radio" id="yes" value="yes" name="new-customer">
+            <label for="yes">Yes i am</label>
+            <input type="radio" id="no" value="no" name="new-customer">
+            <label for="no">No i am Not</label>
+            <input type="radio" id="not-sure" value="not-sure" name="new-customer">
+            <label for="not-sure">I don't know</label>
+
+        </div>
+        <div><br> <input class="submit-button" type="submit"></div>
+    </form>
+</body>
+
+</html>
